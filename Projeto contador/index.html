@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Contador em segundos</h1>
+    <div class="allContador">
+        <p>Qual o tipo de contador?</p>
+
+        <div class="contador">
+            <span id="contador"></span>
+        </div>
+
+        <p>
+            <input type="radio" id="radioCprogre" name="contadorRadio" checked>
+            <label for="radioCprogre">Contador Progressivo</label>
+            <input type="radio" id="radioCregre" name="contadorRadio">
+            <label for="radioCregre">Contador Regressivo</label>
+        </p>
+
+        <div class="bt">
+            <button onclick="contadores()"  id="btComeçar">Começar</button>
+            <button onclick="pararContagem ()" id="btParar">Parar</button>
+        </div>
+
+        <div class="btReco">
+            <button onclick="recomecar()" id="btRecomeçar">Recomeçar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Jéssica Pinheiro | Front-end web developer </p>
+    </footer>
+    <script src="contador.js"></script>
+</body>
+
+</html>

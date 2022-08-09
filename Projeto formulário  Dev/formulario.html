@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario DEV</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="title">
+            <h1>Formulário Dev</h1>
+        </div>
+        <form method="post">
+            <div class="area-formulario">
+                <div class="area-name">
+                    <input type="text" id="inNome" name="Nome" placeholder=" Nome" required autofocus/>
+                    <input type="text" id="inSobrenome" name="Sobrenome" placeholder=" Sobrenome" required />
+                </div>
+                <div class="area-numero">
+                    <input type="tel" id=inNumero name=numero placeholder=" (xx xxxx-xxxx)" required />
+                </div>
+                <div class="area-email">
+                    <input type="email" id="inEmail" name="Email" placeholder=" Email" required />
+                </div>
+                <div class="area-linguagem">
+                    <input type="text" id="inLinguagem" name="linguagem" placeholder=" Tecnologia" required />
+                </div>
+                <div class="area-opcao">
+                    <input type="radio" id="radioF" name="tecnologia" checked />
+                    <label for="RadioF">Front-End</label>
+                    <input type="radio" id="radioB" name="tecnologia" />
+                    <label for="radioB">Back-End</label>
+                    <input type="radio" id="radioC" name="tecnologia" />
+                    <label for="radioc">Full Stack</label>
+                </div>
+                <div class="area-botao">
+                    <button id="btEnviar">Enviar</button>
+                </div>
+            </div>
+            <div class="areaImg">
+                <img src="img/studying.png" alt="img">
+            </div>
+        </form>
+    </section>
+
+    <h4 id="outResposta"></h4>
+
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>

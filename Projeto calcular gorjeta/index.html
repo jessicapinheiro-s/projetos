@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular gorjeta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <h1>Calcular gorjeta</h1>
+            <div class="area-total">
+                <p>
+                    <input type="number" id="inTotal" placeholder=" Total">
+                </p>
+            </div>
+            <div class="area-taxa">
+                <p>
+                    <input type="number" id="inTaxa" placeholder=" Taxa em %">
+                </p>
+            </div>
+            <div class="area-botao">
+                <p>
+                    <input type="button" value="Calcular gorjeta" id="btCalculargorjeta" onclick="calcularGorjeta()">
+                </p>
+            </div>
+            <div id="resposta"></div>
+        </form>
+    </div>
+    <script src="gorjeta.js"></script>
+</body>
+
+</html>

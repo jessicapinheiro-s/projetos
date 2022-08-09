@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    color: #353535;
+}
+.contador{
+    width: 150px;
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+}
+.allContador{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px #f1f1f1 solid;
+    box-shadow: 0px 3px 3px 0px #bbb4b45d;
+}
+.allContador p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bt{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btReco{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+button{
+    display: inline;
+    width: 45%;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+#btComeçar, #btParar, #btRecomeçar{
+    color: #fff;
+}
+#btComeçar{
+    background-color: #3e65e4;
+}
+#btParar{
+    background-color: #f11919;
+}
+#btRecomeçar{
+    background-color: #2cb82c;
+}
+#btComeçar:hover{
+    background-color: #1e41b6;
+}
+#btParar:hover{
+    background-color: #d41212;
+}
+#btRecomeçar:hover{
+    background-color: #259b25;
+}
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}    
