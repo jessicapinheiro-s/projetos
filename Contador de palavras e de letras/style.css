@@ -1,0 +1,24 @@
+body{
+    font-family: monospace;
+    font-size: 1rem;
+}
+textarea{
+    border: 1px solid #e7e7e7 ;
+    outline: none;
+    width: 800px; 
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+span{
+    font-weight: 700;
+}
+.container-text-area{
+    width: 800px; 
+    margin: 0 auto;
+}
+.titulo{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}

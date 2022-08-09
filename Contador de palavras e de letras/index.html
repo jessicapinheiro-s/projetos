@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Contador de caracteres e palavras</h1>
+        <p>Digite ou cole o texto no campo a baixo.</p>
+    </div>
+    <div class="container-text-area">
+        <textarea style="resize: none;" oninput="contador()" autofocus  id="textBox" maxlength="1000"></textarea>
+        <br>
+        <label for="caracteres">Caracteres:</label>
+        <span id="caracteres">0</span>
+        <label for="words">Palavras:</label>
+        <span id="words">0</span>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
