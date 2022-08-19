@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <div class="title">
+            <h1>Apostar</h1>
+            <p>Aposte até <strong>6</strong> números de <strong>1</strong> a <strong>100</strong></p>
+            <p>Atenção! Você tem apenas <strong>6</strong> chances</p>
+        </div>
+        <div class="aposta">
+            <input type="number" id="inNumber" placeholder=" Número" >
+        </div>
+        <div class="bts">
+            <button id="btApostar" class="btApostar">Apostar</button>
+            <button id="btApostar-novamente" class="btApostar-novamente">Apostar Novamente</button>
+        </div>
+    </section>
+
+    <section class="sorteadosNum">
+        <div id="numSoteados"></div>
+    </section>
+    <div id="numeroSorteado"></div>
+    <div id="resposta"></div>
+    <script src="app.js"></script>
+</body>
+</html>
