@@ -11,13 +11,14 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    color: #e0e0e0;
+    color: #f1f1f1;
 }
 .container, .sorteadosNum{
     width: 350px;
     margin: auto;
     padding: 15px;
     text-align: center;
+    margin-top: 50px;
 }
 .container div{
     width: 100%;
@@ -27,12 +28,15 @@ body{
     border: 1px solid #f1f1f1;
     border-radius: 6px;
     background-color: #e1e1ff1a;
-    backdrop-filter:  blur( 10px );
+    backdrop-filter:  blur( 20px );
     -webkit-backdrop-filter: blur(10px);
 }
 .bts{
     text-align: center;
     margin: 20px 0 ;
+}
+.title p, .title h1{
+    margin: 10px 0 15px;
 }
 #numeroSorteado{
     width: 60px;
@@ -60,10 +64,11 @@ input{
     border: none;
     background: none;
     border-bottom: #e0e0e0 1px solid;
-    color: #e0e0e0;
+    color: #f1f1f1;
+    width: 70%;
 }
 input::placeholder{
-    color: #e0e0e0;
+    color: #f1f1f1;
 }
 #btApostar, #btApostar-novamente{
     border: none;
