@@ -15,6 +15,7 @@ document.getElementById('btApostar').addEventListener('click', function apostarN
 
     if (number == '' || number > 100) {
         respThree.innerHTML = `O valor do campo está incorreto, preencha-o corretamente..`;
+        respThree.style.backgroundColor = "#c03624";
         inNumber.focus();
         return;
     } else {
@@ -73,10 +74,13 @@ function filter (){
     let respThree = document.querySelector('div#resposta');
     if(cont == 1){
         respThree.innerHTML = `Parabéns você acertou o número  ${numSorteado}`;
+        respThree.style.backgroundColor = "#123";
     }else if (cont > 1 && cont <=6){
         respThree.innerHTML = `Parabéns você acertou o número ${cont} vezes o número ${numSorteado}`;
+        respThree.style.backgroundColor = "#619bdd";
     }else{
         respThree.innerHTML = `Você não acertou nenhum número, o número sorteado é ${numSorteado}`;
+        respThree.style.backgroundColor = "#c03624";
     }
 }//função para recarregar a página
 document.getElementById('btApostar-novamente').addEventListener('click', function apostarNovamente (){
