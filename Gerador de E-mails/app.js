@@ -4,7 +4,7 @@ document.getElementById('btGerar').addEventListener('click', function gerarEmail
     let inNomeEmpresa = document.getElementById('inNomeEmpresa');
     let nomeEmpresa = inNomeEmpresa.value;
     let nome = inNome.value;
-
+    estilo(resp);
     let nomepartes = nome.split(' ');
     let primeiroNome = nomepartes[0];
     let email ='';
@@ -20,4 +20,8 @@ function verificarInfo (){
         let resp = document.querySelector('div#resposta');
         resp.innerHTML = `Prencha o campo corretamente..`;
     }
+}
+function estilo(y){
+    let word = document.getElementById('resposta');
+    word.style.backgroundColor = '#fff';
 }

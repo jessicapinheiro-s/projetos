@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,26 @@
     <title>Gerador de Emails</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Gerador de emails</h1>
-    </header>
     <section class="conteiner">
-        <label for="inNome">Nome:</label>
-        <br>
-        <input type="text" id="inNome" class="inNome">
-        <br>
-        <label for="inNomeEmpresa">Nome da empresa:</label>
-        <br>
-        <input type="text" id="inNomeEmpresa" class="inNomeEmpresa">
-        <br>
-        <button id="btGerar">Gerar</button>
+        <div class="content">
+            <label for="inNome">Nome:</label>
+            <br>
+            <input type="text" id="inNome" class="inNome">
+            <br>
+            <label for="inNomeEmpresa">Nome da empresa:</label>
+            <br>
+            <input type="text" id="inNomeEmpresa" class="inNomeEmpresa">
+            <br>
+            <button id="btGerar">Gerar</button>
+        </div>
+        <div class="conteiner-resposta">
+            <div id="resposta"></div>
+        </div>
     </section>
-    <div id="resposta"></div>
+
+
     <script src="app.js"></script>
 </body>
 
