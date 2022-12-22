@@ -1,7 +1,10 @@
-function calcularGorjeta() {
+document.getElementById('btCalculargorjeta').addEventListener('click',function calcularGorjeta() {
     let inTotal = document.getElementById("inTotal");
     let inTaxa = document.getElementById("inTaxa");
     let resp = document.querySelector('div#resposta');
+    let respStyle =  document.getElementById('resposta');
+
+    respStyle.style.background = '#000';
 
     if (inTaxa.value == "" || inTotal.value == "") {
         resp.innerHTML = `Preencha o campo corretamente..`
@@ -15,4 +18,4 @@ function calcularGorjeta() {
         resp.innerHTML = `<p>O valor da gorgeta é R$${soma.toFixed(2)}</p> <br>`
         resp.innerHTML += `<p>O valor total a pagar é R$ ${totalApagar.toFixed(2)}</p>`
     }
-}
+})
