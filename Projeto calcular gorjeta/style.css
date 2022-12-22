@@ -4,13 +4,25 @@
 }
 body{
     font: normal 1em Arial;
-    background-image: linear-gradient( #f11616, #a81c12);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+.img{
+    max-width: 400px;
+    text-align: center;
+}
+.img img{
+    width: 150px;
+}
 #resposta{
     text-align: center;
+    background-color: black;
+    max-width:200px ;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin: 20px auto;
     color: #fff;
+    padding: 20px;
 }
 h1{
     text-align: center;
@@ -26,11 +38,12 @@ h1{
     backdrop-filter: blur (10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
+    box-shadow: 1px 3px 5px 3px rgb(230, 228, 228);
 }
 input{
     outline: none;
-    border: none;
-    background-color: #f8f8f8;
+    background-color: #d1d1d14f;
+    border: 1px solid #6161a8;
 }
 .area-total input, .area-taxa input, .area-botao input{
     display: block;
