@@ -10,6 +10,7 @@ body{
 header{
     text-align: center;
     padding: 20px;
+    z-index: 1;
 }
 header h1{
     color: #242424;
@@ -34,7 +35,7 @@ form div{
     margin: 15px 0px;
 }
 .container{
-    margin: auto;
+margin: auto;
     padding: 15px;
     max-width: 400px;
     margin-top: 20px;
@@ -66,3 +67,102 @@ input{
     background-color: #6e6ebe;
 }
 
+/*formas
+#triangulo-1 ,
+#triangulo-2,
+#triangulo-3 ,
+#triangulo-4{
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+#triangulo-3{
+    bottom: 25%;
+    left: 15%;
+    border-top: 40px solid transparent;
+    border-right: 80px solid #add8e68a;
+    border-bottom: 40px solid transparent;
+} 
+#triangulo-4{
+    bottom: 18%;
+    left: 20%;
+    border-top: 40px solid transparent;
+    border-right: 80px solid #add8e68a;
+    border-bottom: 40px solid transparent;
+}
+#triangulo-1 {
+    border-top: 40px solid transparent;
+    border-right: 80px solid #add8e68a;
+    border-bottom: 40px solid #add8e68a;
+}
+#triangulo-2 {
+    top: 10%;
+    left: 10%;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #add8e68a;
+}
+#circulo-1,
+#circulo-2{
+    background: #add8e68a;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#circulo-3,
+#circulo-4{
+    background: #add8e68a;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#circulo-1 {
+    top: 40%;
+    left: 20%;
+}
+#circulo-2 {
+    bottom: 10%;
+    left: 30%;
+}
+#circulo-3{
+    top: 10%;
+    left: 20%;
+}
+#circulo-4{
+    top: 10%;
+    left: 5%;
+}
+
+#quadrado-1,
+#quadrado-2{
+    background: #add8e68a;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#quadrado-3,
+#quadrado-4{
+    background: #add8e68a;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#quadrado-1{
+    left: 5%;
+    top: 23%;
+}
+#quadrado-2 {
+    bottom: 14%;
+    left: 5%;
+}
+#quadrado-3{
+    bottom: 60%;
+    left: 5%;
+}
+#quadrado-4{
+    bottom: 10%;
+    left: 50%;
+}
+*/
