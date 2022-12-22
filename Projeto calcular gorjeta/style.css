@@ -7,6 +7,13 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+header{
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    color: #242424;
+}
 .img{
     max-width: 400px;
     text-align: center;
@@ -23,16 +30,14 @@ body{
     color: #fff;
     padding: 20px;
 }
-h1{
-    text-align: center;
-    color: #fff;
-    margin-bottom: 15px;
+form div{
+    margin: 15px 0px;
 }
 .container{
     margin: auto;
     padding: 15px;
     max-width: 400px;
-    margin-top: 100px;
+    margin-top: 20px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur (10px);
     -webkit-backdrop-filter: blur(10px);
@@ -55,6 +60,7 @@ input{
 #btCalculargorjeta{
     background-color: #6161a8;
     color: #fff;
+    font-size: 1.2rem;
 }
 #btCalculargorjeta:hover{
     background-color: #6e6ebe;
